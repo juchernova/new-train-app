@@ -1,0 +1,121 @@
+.main-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  padding-top: 35px;
+  padding-bottom: 50px;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(60%, #5682a3), color-stop(34%, white));
+  background: linear-gradient(180deg, #5682a3 60%, white 34%);
+}
+
+.main-content .logo {
+  color: white;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.main-content .logo i {
+  background-color: #3d6380;
+  border-radius: 50%;
+  padding: 7px;
+}
+
+.main-content .logo span {
+  font-size: 20px;
+}
+
+.main-content .form-content {
+  width: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 35px;
+  background-color: white;
+}
+
+.main-content .form-content form {
+  width: 200px;
+}
+
+.main-content .form-content .input-required {
+  position: relative;
+}
+
+.main-content .form-content .input-required .password-control {
+  position: absolute;
+  top: 28px;
+  right: 13px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url(./img/view.png) 0 0 no-repeat;
+}
+
+.main-content .form-content .input-required .password-control.view {
+  background: url(./img/hiden.png) 0 0 no-repeat;
+}
+
+.main-content .form-content .input-required::before {
+  content: "*";
+  position: absolute;
+  color: red;
+  font-size: 17px;
+  right: 0;
+}
+
+.main-content .form-content label {
+  font-family: 'Work Sans', sans-serif;
+  color: #999;
+  font-size: 15px;
+}
+
+.main-content .form-content .form-input {
+  width: 200px;
+  height: 25px;
+  margin: 0 auto;
+  border-radius: 0;
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  cursor: pointer;
+}
+
+.main-content .form-content .form-input:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.main-content .form-content .btn-sub-style:active {
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+
+.main-content .form-content .btn-sub-style:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: none;
+  outline: none;
+}
+
+.main-content .form-content .btn-sub-style {
+  width: 75px;
+  border: none;
+  background-color: white;
+  color: #000000;
+  font-weight: 500;
+  margin-left: 5px;
+}
+
+.main-content .form-content .btn-sub-style i {
+  font-size: 13px;
+  padding-left: 0px;
+}
+/*# sourceMappingURL=style.css.map */

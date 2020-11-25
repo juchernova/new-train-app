@@ -1,0 +1,100 @@
+.main-content {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 35px;
+    padding-bottom: 50px;
+    background: -webkit-linear-gradient(180deg, rgb(86, 130, 163) 60%, rgb(255, 255, 255) 34%);
+    background: -moz-linear-gradient(180deg, rgb(86, 130, 163) 60%, rgb(255, 255, 255) 34%);
+    background: linear-gradient(180deg, rgb(86, 130, 163) 60%, rgb(255, 255, 255) 34%);
+
+    .logo {
+        color: rgb(255, 255, 255);
+        font-size: 25px;
+        cursor: pointer;
+        i {
+            background-color: rgb(61, 99, 128);
+            border-radius: 50%;
+            padding: 7px;
+        }
+        span {
+            font-size: 20px;
+        }
+    }
+    .form-content {
+        width: 500px;
+        display: flex;
+        justify-content: center;
+        padding-top: 35px;
+        background-color: rgb(255, 255, 255);
+
+
+        form {
+            width: 200px;
+        }
+        .input-required {
+            position: relative;
+
+            .password-control {
+                position: absolute;
+                top: 28px;
+                right: 13px;
+                display: inline-block;
+                width: 20px;
+                height: 20px;
+                background: url(./img/view.png) 0 0 no-repeat;
+            }
+            .password-control.view {
+                background: url(./img/hiden.png) 0 0 no-repeat;
+            }
+        }
+        .input-required::before {
+            content: "*";
+            position: absolute;
+            color: rgb(255, 0, 0);
+            font-size: 17px;
+            right: 0;
+        }
+        label {
+            font-family: 'Work Sans', sans-serif;
+            color: #999;
+            font-size: 15px;
+        }
+        .form-input {
+            width: 200px;
+            height: 25px;
+            margin: 0 auto;
+            border-radius: 0;
+            border-top: transparent;
+            border-left: transparent;
+            border-right: transparent;
+            cursor: pointer;
+        }
+        .form-input:focus {
+            box-shadow: none;
+        }
+        .btn-sub-style:active {
+            border: none;
+            background-color: transparent;
+            outline: none;
+        }
+        .btn-sub-style:focus {
+            box-shadow: none;
+            border: none;
+            outline: none;
+        }
+        .btn-sub-style {
+            width: 75px;
+            border: none;
+            background-color: white;
+            color: #000000;
+            font-weight: 500;
+            margin-left: 5px;
+
+            i {
+                font-size: 13px;
+                padding-left: 0px;
+            }
+        }
+    }
+}
