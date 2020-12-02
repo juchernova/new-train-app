@@ -7,7 +7,7 @@
     background: -webkit-linear-gradient(180deg, rgb(86, 130, 163) 60%, rgb(255, 255, 255) 34%);
     background: -moz-linear-gradient(180deg, rgb(86, 130, 163) 60%, rgb(255, 255, 255) 34%);
     background: linear-gradient(180deg, rgb(86, 130, 163) 60%, rgb(255, 255, 255) 34%);
-
+    
     .logo {
         color: rgb(255, 255, 255);
         font-size: 25px;
@@ -94,6 +94,18 @@
             i {
                 font-size: 13px;
                 padding-left: 0px;
+            }
+        }
+        .user-data {
+            display: flex;
+            flex-direction: column;
+
+
+            .user-data-value {
+                font-family: 'Work Sans', sans-serif;
+                font-size: 22px;
+                margin-top: 12px;
+                border-bottom: 1px solid rgb(138, 169, 194);
             }
         }
     }

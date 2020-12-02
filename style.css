@@ -118,4 +118,21 @@
   font-size: 13px;
   padding-left: 0px;
 }
+
+.main-content .form-content .user-data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main-content .form-content .user-data .user-data-value {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 22px;
+  margin-top: 12px;
+  border-bottom: 1px solid #8aa9c2;
+}
 /*# sourceMappingURL=style.css.map */
